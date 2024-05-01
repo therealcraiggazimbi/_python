@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Python Logo](https://res.cloudinary.com/ddrntb739/image/upload/v1714560791/headify_qu82d8.png)
+
 Headify is a custom Odoo module designed to modify the website header. It provides an image cover header with a hamburger menu, inspired by the [Bootstrap theme](https://preview.colorlib.com/theme/bootstrap/website-menu-20/index.html).
 
 ## Requirements
@@ -25,7 +27,7 @@ Headify is a custom Odoo module designed to modify the website header. It provid
 │   │   └── __init__.py
 │   ├── models
 │   │   └── __init__.py
-│   ├── static
+│   ├── static ├──src
 │   │   ├── css
 │   │   │   ├── style.css
 │   │   │   └── ...
@@ -33,7 +35,7 @@ Headify is a custom Odoo module designed to modify the website header. It provid
 │   │   │   ├── fontawesome-webfont.woff2
 │   │   │   └── ...
 │   │   ├── images
-│   │   │   ├── pexels-pixabay-33109.jpg
+│   │   │   ├── bg-1.jpg
 │   │   │   └── ...
 │   │   ├── js
 │   │   │   ├── main.js

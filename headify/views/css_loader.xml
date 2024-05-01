@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="load_custom_css" inherit_id="website.layout">
+        <xpath expr="." position="inside">
+            <!-- CSS files -->
+            <link rel="stylesheet" href="/headify/static/src/css/style.css"/>
+            <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css"/>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+            <!-- JavaScript files -->
+            <script type="text/javascript" src="/headify/static/src/js/jquery.min.js"></script>
+            <script type="text/javascript" src="/headify/static/src/js/popper.js"></script>
+            <script type="text/javascript" src="/headify/static/src/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="/headify/static/src/js/main.js"></script>
+        </xpath>
+    </template>
+</odoo>
